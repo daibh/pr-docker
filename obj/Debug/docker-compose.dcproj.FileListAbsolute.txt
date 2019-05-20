@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\Pr\bin\Debug\Gateway.dll
+C:\Users\Admin\source\repos\Pr\bin\Debug\ServiceA.dll
+C:\Users\Admin\source\repos\Pr\bin\Debug\Gateway.pdb
+C:\Users\Admin\source\repos\Pr\bin\Debug\ServiceA.pdb
+C:\Users\Admin\source\repos\Pr\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Pr\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Pr\obj\Debug\docker-compose.dcproj.CopyComplete

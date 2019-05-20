@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\Pr\Gateway\bin\Debug\netcoreapp2.1\Gateway.deps.json
+C:\Users\Admin\source\repos\Pr\Gateway\bin\Debug\netcoreapp2.1\Gateway.runtimeconfig.json
+C:\Users\Admin\source\repos\Pr\Gateway\bin\Debug\netcoreapp2.1\Gateway.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\Pr\Gateway\bin\Debug\netcoreapp2.1\Gateway.dll
+C:\Users\Admin\source\repos\Pr\Gateway\bin\Debug\netcoreapp2.1\Gateway.pdb
+C:\Users\Admin\source\repos\Pr\Gateway\obj\Debug\netcoreapp2.1\Gateway.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Pr\Gateway\obj\Debug\netcoreapp2.1\Gateway.RazorAssemblyInfo.cache
+C:\Users\Admin\source\repos\Pr\Gateway\obj\Debug\netcoreapp2.1\Gateway.RazorAssemblyInfo.cs
+C:\Users\Admin\source\repos\Pr\Gateway\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Admin\source\repos\Pr\Gateway\obj\Debug\netcoreapp2.1\Gateway.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Pr\Gateway\obj\Debug\netcoreapp2.1\Gateway.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Pr\Gateway\obj\Debug\netcoreapp2.1\Gateway.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\source\repos\Pr\Gateway\obj\Debug\netcoreapp2.1\Gateway.dll
+C:\Users\Admin\source\repos\Pr\Gateway\obj\Debug\netcoreapp2.1\Gateway.pdb

@@ -1,0 +1,39 @@
+version: '3.4'
+
+services:
+  gateway:
+    image: gateway:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_gateway$
+    volumes:
+      - C:\Users\Admin\source\repos\Pr\Gateway:/app
+      - C:\Users\Admin\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_gateway$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_gateway$ \"bin/Debug/netcoreapp2.1/Gateway.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
+  servicea:
+    image: servicea:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_servicea$
+    volumes:
+      - C:\Users\Admin\source\repos\Pr\ServiceA:/app
+      - C:\Users\Admin\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_servicea$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_servicea$ \"bin/Debug/netcoreapp2.1/ServiceA.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
